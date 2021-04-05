@@ -1,7 +1,7 @@
 # Intellegere
 
 
-![Capa do Projeto](/img/Imagem1.png)
+![Capa do Projeto](https://docs.google.com/drawings/d/1wNgeABHsf6cm0MF4xJ3fKLbQ85e6nUWnOgncqylXIf0/edit?usp=sharing)
 
 # Sobre o Projeto
 
@@ -41,7 +41,17 @@ Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o no
 
 # Autores
 
-[Exemplo](https://github.com/testing-library/react-testing-library#contributors)
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Vinicius-gif"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/61997117?s=400&u=607bbdae8bf0bc6073491ffa95bea4c5b73b3d71&v=4" width="100px;" alt="Imagem de altor"/><br /><sub><b>Vinicius Felipe</b></sub></a><br /></td>
+</tr>
+<tr>
+    <td align="center"><a href="http://github.com/GuiPM001"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/61996586?v=4" width="100px;" alt="Imagem de altor"/><br /><sub><b>Guilherme Pimentel</b></sub></a><br /></td>
+</tr>
+<tr>
+    <td align="center"><a href="http://github.com/caelfernandes"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/76973266?v=4" width="100px;" alt="Imagem de altor"/><br /><sub><b>Carlos Fernandes</b></sub></a><br /></td>
+</tr>
+</table>
 
 # Licença
 
