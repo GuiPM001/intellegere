@@ -72,7 +72,7 @@ Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o no
 
 # Licença
 
-Este projeto está licenciado sob a Licença MIT,  consulte o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
+Este projeto está licenciado sob a Licença MIT,  consulte o arquivo [LICENSE.md](LICENSE) para mais detalhes.
 
 # Agradecimentos
 
