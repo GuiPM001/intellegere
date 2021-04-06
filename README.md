@@ -25,7 +25,11 @@ Este artigo refere-se àimplementaçãode  um aplicativo  mobile  que auxilia no
 
 # Requisitos Funcionais 
 
- ainda não definido.
+- [ ] Cadastrar Usuário
+- [ ] Fazer Login
+- [ ] Selecionar Atividade
+- [ ] Sair da Atividade
+- [ ] Registrar Pontuação
 
 
 # Tecnologias Usadas
@@ -50,7 +54,19 @@ Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o no
 </tc>
 <tc>
     <td align="center"><a href="http://github.com/caelfernandes"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/76973266?v=4" width="100px;" alt="Imagem de altor"/><br /><sub><b>Carlos Fernandes</b></sub></a><br /></td>
+</tr>
+<tc>
+    <td align="center"><a href=""><img style="border-radius: 50%;" src="https://icons-for-free.com/iconfiles/png/512/avatar+person+profile+user+icon-1320086059654790795.png" width="100px;" alt="Imagem de altor"/><br /><sub><b>Herik Santos</b></sub></a><br /></td>
 </tc>
+<tr>
+    <td align="center"><a href=""><img style="border-radius: 50%;" src="https://icons-for-free.com/iconfiles/png/512/avatar+person+profile+user+icon-1320086059654790795.png" width="100px;" alt="Imagem de altor"/><br /><sub><b>Ivan Kabuto</b></sub></a><br /></td>
+</tr>
+<tr>
+    <td align="center"><a href=""><img style="border-radius: 50%;" src="https://icons-for-free.com/iconfiles/png/512/avatar+person+profile+user+icon-1320086059654790795.png" width="100px;" alt="Imagem de altor"/><br /><sub><b>Sergio Morato</b></sub></a><br /></td>
+</tr>
+<tr>
+    <td align="center"><a href=""><img style="border-radius: 50%;" src="https://icons-for-free.com/iconfiles/png/512/avatar+person+profile+user+icon-1320086059654790795.png" width="100px;" alt="Imagem de altor"/><br /><sub><b>Miguel Mattias</b></sub></a><br /></td>
+</tr>
 </table>
 
 # Licença
