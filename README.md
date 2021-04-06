@@ -8,7 +8,7 @@
 Este artigo refere-se àimplementaçãode  um aplicativo  mobile  que auxilia noprocesso dedesenvolvimento do raciocínio lógico e na alfabetizaçãode  crianças  na  primeira  infância. A  criança  será  capaz  de  fazer associações relacionadas  a letras,  números,  sons  e  imagensatravés  do  uso  do  mobile learning em um ambiente prático e intuitivo, garantindo que meninos e meninas tenham acesso a um desenvolvimento de qualidade.
 
 <h4 align="center"> 
-	🚧  Em desenvolvimento . . .
+	💻🖱✏  Em desenvolvimento . . .
 	
 
 </h4>
