@@ -9,7 +9,7 @@ Este artigo refere-se àimplementaçãode  um aplicativo  mobile  que auxilia no
 
 <h4 align="center"> 
 	🚧  Em desenvolvimento . . .
-	![image](https://user-images.githubusercontent.com/61997117/113766526-e6e63d00-96f3-11eb-81dd-e6d54357e5f2.png)
+	
 
 </h4>
 
