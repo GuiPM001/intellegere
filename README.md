@@ -5,8 +5,8 @@
 
 # Sobre o Projeto
 
-Este artigo refere-se à implementação de um aplicativo mobile que auxilia noprocesso dedesenvolvimento do raciocínio lógico e na alfabetizaçãode crianças na primeira
-infância. A criança será capaz de fazer associações relacionadas a letras, números, sons e imagensatravés do uso do mobile learning em um ambiente prático e intuitivo, garantindo que meninos e meninas tenham acesso a um desenvolvimento de qualidade.
+Este artigo refere-se à implementação de um aplicativo mobile que auxilia no processo de desenvolvimento do raciocínio lógico e na alfabetização de crianças na primeira
+infância. A criança será capaz de fazer associações relacionadas a letras, números, sons e imagens através do uso do mobile learning em um ambiente prático e intuitivo, garantindo que meninos e meninas tenham acesso a um desenvolvimento de qualidade.
 
 # Status
 
