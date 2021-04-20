@@ -1,7 +1,7 @@
 # Intellegere
 
 
-![Capa do Projeto](https://media-exp1.licdn.com/dms/image/C4E22AQGJ9ATGYbq2kQ/feedshare-shrink_800/0/1617647602026?e=1620259200&v=beta&t=flhSyQVM-lPssWzwDqThH-kM-gTU_w0wNqTNnwz4PrM)
+![Capa do Projeto](logo.svg)
 
 # Sobre o Projeto
 
