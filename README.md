@@ -1,7 +1,7 @@
 # Intellegere
 
 
-![Capa do Projeto](logo.svg)
+![Capa do Projeto](logo.svg =50x50)
 
 # Sobre o Projeto
 
