@@ -1,7 +1,8 @@
-# Intellegere
+<h1 align="center"> 
+  Intellegere
+  <img alt="Logo" title="Intellegere" src="logo.svg" width="260px" />
+</h1>
 
-
-![Capa do Projeto](logo.svg =50x50)
 
 # Sobre o Projeto
 
