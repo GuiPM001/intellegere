@@ -1,6 +1,5 @@
 <h1 align="center"> 
-  Intellegere
-  <img alt="Logo" title="Intellegere" src="logo.svg" width="260px" />
+  <img alt="Logo" title="Intellegere" src="logo.svg" width="250px" />
 </h1>
 
 
