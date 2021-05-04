@@ -10,8 +10,11 @@ infância. A criança será capaz de fazer associações relacionadas a letras, 
 
 # Status
 
-💻🖱✏ Em desenvolvimento . . .
-
+- [Histórias de Usuários](https://miro.com/welcomeonboard/YOz2aHI96v5EV7WAoPpgTQS8fswow9ccvRchaVl2NrqjRBhIzQKOGW68ddQ3pyPS)
+- [Personas]
+- [Cenários]
+- [Protótipo lo-fi]
+- [Protótipo hi-fi]
 # Índice/Sumário
 
 * [Sobre](#sobre-o-projeto)
