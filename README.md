@@ -8,13 +8,13 @@
 Este artigo refere-se à implementação de um aplicativo mobile que auxilia no processo de desenvolvimento do raciocínio lógico e na alfabetização de crianças na primeira
 infância. A criança será capaz de fazer associações relacionadas a letras, números, sons e imagens através do uso do mobile learning em um ambiente prático e intuitivo, garantindo que meninos e meninas tenham acesso a um desenvolvimento de qualidade.
 
-# Status
+# Desenvolvimento
 
 - [Histórias de Usuários](https://miro.com/welcomeonboard/YOz2aHI96v5EV7WAoPpgTQS8fswow9ccvRchaVl2NrqjRBhIzQKOGW68ddQ3pyPS)
-- Personas
-- Cenários
-- Protótipo lo-fi
-- Protótipo hi-fi
+- [Personas](https://docs.google.com/document/d/1V43nEEDtmO6cQ2Jsh3C0zqLxf4DszINQY-rQYd7yhgw/edit?usp=sharing)
+- [Cenários](https://docs.google.com/document/d/1nzLlACfRgL1vr8Um-cPzkTuD9DsgI6tADBRyiDTuNYI/edit?usp=sharing)
+- [Protótipo lo-fi](https://mediacdns3.ulife.com.br/PAT/Upload/2767413/imagemlofi_20210512002004.jpeg)
+- [Protótipo hi-fi](https://www.figma.com/file/hTDyBrYCKg3RXG9UU0Bglg/Intellegere2?node-id=0%3A1)
 # Índice/Sumário
 
 * [Sobre](#sobre-o-projeto)
@@ -35,15 +35,17 @@ infância. A criança será capaz de fazer associações relacionadas a letras, 
 - [ ] Selecionar Atividade
 - [ ] Sair da Atividade
 - [ ] Registrar Pontuação
+- [ ] Registrar Conquista
 
 
 # Tecnologias Usadas
 
 - [Flutter](https://flutter.dev/)
 - [Node.js](https://nodejs.org/en/)
-- [Angular](https://angular.io/)
-- [TypeScript](https://www.typescriptlang.org/)
-
+- [Mongo BD](https://www.mongodb.com/try/download/community)
+- [Figma](https://www.figma.com/files/recent?fuid=975487356877783015) 
+- [Node.js](https://miro.com/app/dashboard/)
+- [Xtensio](https://app.xtensio.com/templates/#marketing)
 # Contribuição
 
 Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o nosso código de conduta e o processo de envio de solicitações *pull* (*Pull Request*) para nós.
