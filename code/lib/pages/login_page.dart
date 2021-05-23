@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import '../components/input.dart';
-import '../components/login_button.dart';
-import '../components/register_button.dart';
-import '../components/return_button.dart';
+import 'package:intellegere/components/input.dart';
+import 'package:intellegere/components/login_button.dart';
+import 'package:intellegere/components/register_button.dart';
+import 'package:intellegere/components/return_button.dart';
 
 class Login extends StatefulWidget {
   @override
@@ -48,11 +48,13 @@ class _LoginState extends State<Login> {
                   hintText: 'Nome de usuário'),
               SizedBox(height: 20),
               Input(controller: password, obscure: true, hintText: 'Senha'),
+              SizedBox(height: 40),
               LoginButton(
                 press: () {
                   Navigator.pushNamed(context, '/game_list');
                 },
               ),
+              SizedBox(height: 40),
               Text('Não tem conta ainda?',
                   style: TextStyle(
                       fontFamily: 'Nunito',

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import '../components/logout_button.dart';
-import '../components/profile_button.dart';
+import 'package:intellegere/components/logout_button.dart';
+import 'package:intellegere/components/profile_button.dart';
 
 class GameList extends StatefulWidget {
   @override

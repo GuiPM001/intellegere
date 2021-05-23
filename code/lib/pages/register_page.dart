@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import '../components/input.dart';
-import '../components/register_button.dart';
-import '../components/return_button.dart';
+import 'package:intellegere/components/input.dart';
+import 'package:intellegere/components/register_button.dart';
+import 'package:intellegere/components/return_button.dart';
 
 class Register extends StatefulWidget {
   @override

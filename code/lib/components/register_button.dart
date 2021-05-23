@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../constants.dart';
+import 'package:intellegere/constants.dart';
 
 class RegisterButton extends StatelessWidget {
   final Function press;

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../constants.dart';
+import 'package:intellegere/constants.dart';
 
 class LoginButton extends StatelessWidget {
   final Function press;
@@ -8,7 +8,7 @@ class LoginButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return (Container(
-      margin: EdgeInsets.symmetric(vertical: 40),
+      margin: EdgeInsets.only(top: 5),
       width: 160,
       height: 50,
       decoration: BoxDecoration(boxShadow: [

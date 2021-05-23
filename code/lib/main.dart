@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'pages/homepage.dart';
-import 'pages/login_page.dart';
-import 'pages/register_page.dart';
-import 'pages/game_list.dart';
-import 'pages/profile.dart';
+import 'package:intellegere/pages/homepage.dart';
+import 'package:intellegere/pages/login_page.dart';
+import 'package:intellegere/pages/register_page.dart';
+import 'package:intellegere/pages/game_list.dart';
+import 'package:intellegere/pages/Profile/profile.dart';
 
 void main() {
   runApp(Routes());
