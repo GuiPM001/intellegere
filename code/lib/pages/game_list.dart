@@ -11,17 +11,27 @@ class GameList extends StatefulWidget {
 class _GameListState extends State<GameList> {
   @override
   Widget build(BuildContext context) {
+    final arguments = ModalRoute.of(context).settings.arguments as Map;
+    bool isLogged;
+
+    if (arguments['logged'] == true) {
+      isLogged = true;
+    } else if (arguments['logged'] == false) {
+      isLogged = false;
+    }
+
     return Scaffold(
       backgroundColor: Color(0XFFFFEEEE),
-      body: SafeArea(
-        child: Column(
-          children: [
-            Row(
+      body: ListView(
+        children: [
+          Container(
+            child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: [
+              children: <Widget>[
                 LogOutButton(
                   press: () {
-                    Navigator.pushNamed(context, '/');
+                    Navigator.pushNamed(context, '/',
+                        arguments: {'logged': false});
                   },
                 ),
                 SvgPicture.asset(
@@ -29,13 +39,61 @@ class _GameListState extends State<GameList> {
                 ),
                 ProfileButton(
                   press: () {
-                    Navigator.pushNamed(context, '/profile');
+                    Navigator.pushNamed(context, '/profile',
+                        arguments: {'logged': isLogged});
                   },
                 ),
               ],
-            )
-          ],
-        ),
+            ),
+          ),
+          SizedBox(height: 20.0),
+          Container(
+              padding: EdgeInsets.symmetric(horizontal: 10),
+              height: MediaQuery.of(context).size.width * 2,
+              child: GridView.count(
+                crossAxisCount: 2,
+                mainAxisSpacing: 10,
+                children: [
+                  IconButton(
+                    icon: Image.asset('assets/images/Jogo_da_Memoria.png'),
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/jogo-da-memoria');
+                    },
+                  ),
+                  IconButton(
+                    icon: Image.asset('assets/images/Jogo_da_Memoria.png'),
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/jogo-da-memoria');
+                    },
+                  ),
+                  IconButton(
+                    icon: Image.asset('assets/images/Jogo_da_Memoria.png'),
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/jogo-da-memoria');
+                    },
+                  ),
+                  IconButton(
+                    icon: Image.asset('assets/images/Jogo_da_Memoria.png'),
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/jogo-da-memoria');
+                    },
+                  ),
+                  IconButton(
+                    icon: Image.asset('assets/images/Jogo_da_Memoria.png'),
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/jogo-da-memoria');
+                    },
+                  ),
+                  IconButton(
+                    icon: Image.asset('assets/images/Jogo_da_Memoria.png'),
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/jogo-da-memoria');
+                    },
+                  ),
+                  SizedBox(height: 20)
+                ],
+              )),
+        ],
       ),
     );
   }

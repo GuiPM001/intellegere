@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intellegere/games/Jogo_da_Memoria/main.dart';
 import 'package:intellegere/pages/homepage.dart';
 import 'package:intellegere/pages/login_page.dart';
 import 'package:intellegere/pages/register_page.dart';
@@ -21,6 +22,7 @@ class Routes extends StatelessWidget {
         '/register_page': (context) => Register(),
         '/game_list': (context) => GameList(),
         '/profile': (context) => Profile(),
+        '/jogo-da-memoria': (context) => JogoDaMemoria(),
       },
     ));
   }
