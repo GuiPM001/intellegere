@@ -11,8 +11,7 @@ class Login extends StatefulWidget {
 }
 
 class _LoginState extends State<Login> {
-  TextEditingController login = TextEditingController();
-  TextEditingController password = TextEditingController();
+  final formKey = GlobalKey<FormState>();
 
   @override
   Widget build(BuildContext context) {
@@ -33,43 +32,72 @@ class _LoginState extends State<Login> {
               Navigator.pop(context);
             },
           ),
-          Column(
-            children: [
-              Padding(
-                padding: EdgeInsets.only(bottom: 60),
-                child: SvgPicture.asset(
-                  'assets/images/logo.svg',
-                  height: 230,
+          Form(
+            key: formKey,
+            child: Column(
+              children: [
+                Padding(
+                  padding: EdgeInsets.only(bottom: 60),
+                  child: SvgPicture.asset(
+                    'assets/images/logo.svg',
+                    height: 230,
+                  ),
                 ),
-              ),
-              Input(
-                  controller: login,
-                  obscure: false,
-                  hintText: 'Nome de usuário'),
-              SizedBox(height: 20),
-              Input(controller: password, obscure: true, hintText: 'Senha'),
-              SizedBox(height: 40),
-              LoginButton(
-                press: () {
-                  Navigator.pushNamed(context, '/game_list');
-                },
-              ),
-              SizedBox(height: 40),
-              Text('Não tem conta ainda?',
-                  style: TextStyle(
-                      fontFamily: 'Nunito',
-                      fontSize: 18,
-                      color: Color(0XFF282726),
-                      fontWeight: FontWeight.w800)),
-              RegisterButton(
-                press: () {
-                  Navigator.pushNamed(context, '/register_page');
-                },
-              ),
-            ],
+                Input(
+                    keyboardType: TextInputType.text,
+                    validator: isValidName,
+                    obscure: false,
+                    hintText: 'Nome de usuário'),
+                SizedBox(height: 20),
+                Input(
+                    keyboardType: TextInputType.text,
+                    validator: isValidPassword,
+                    obscure: true,
+                    hintText: 'Senha'),
+                SizedBox(height: 40),
+                LoginButton(
+                  press: () {
+                    logIn();
+                  },
+                ),
+                SizedBox(height: 40),
+                Text('Não tem conta ainda?',
+                    style: TextStyle(
+                        fontFamily: 'Nunito',
+                        fontSize: 18,
+                        color: Color(0XFF282726),
+                        fontWeight: FontWeight.w800)),
+                RegisterButton(
+                  press: () {
+                    Navigator.pushNamed(context, '/register_page');
+                  },
+                ),
+              ],
+            ),
           )
         ],
       ),
     ));
+  }
+
+  String isValidName(value) {
+    if (value == null || value.isEmpty) {
+      return 'Insira seu nome de usuário';
+    }
+    return null;
+  }
+
+  String isValidPassword(value) {
+    if (value == null || value.isEmpty) {
+      return 'Insira sua senha';
+    }
+    return null;
+  }
+
+  logIn() {
+    if (formKey.currentState.validate()) {
+      Navigator.pushNamed(context, '/game_list', arguments: {'logged': true});
+    } else
+      return null;
   }
 }

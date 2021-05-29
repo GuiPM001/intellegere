@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:intellegere/components/return_button.dart';
 import 'package:intellegere/components/edit_button.dart';
 
@@ -19,11 +20,13 @@ class _ProfileLoggedState extends State<ProfileLogged> {
           children: [
             ReturnButton(
               press: () {
-                Navigator.pushNamed(context, '/');
+                Navigator.pop(context);
               },
             ),
             EditButton(
-              press: () {},
+              press: () {
+                Navigator.pushNamed(context, '');
+              },
             ),
           ],
         ),
@@ -32,19 +35,21 @@ class _ProfileLoggedState extends State<ProfileLogged> {
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
           Container(
-            margin: EdgeInsets.only(top: 50),
-            width: 160,
-            height: 160,
-            alignment: Alignment.center,
-            decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(60),
-                border: Border.all(color: Color(0XFFFFAB5E), width: 4)),
-            child: Text('Foto de perfil'),
-          ),
+              margin: EdgeInsets.only(top: 50),
+              padding: EdgeInsets.only(left: 18),
+              width: 160,
+              height: 160,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(60),
+                  color: Colors.grey[200],
+                  border: Border.all(color: Color(0XFFFFAB5E), width: 4)),
+              child: SvgPicture.asset('assets/icons/profile.svg',
+                  height: 100, color: Colors.grey[600])),
           Container(
               alignment: Alignment.topLeft,
               margin: EdgeInsets.only(top: 35, left: 25),
-              child: Text('NOME E SOBRENOME',
+              child: Text('PEDRO HENRIQUE',
                   style: TextStyle(
                       fontFamily: 'Nunito',
                       fontSize: 24,
@@ -53,7 +58,7 @@ class _ProfileLoggedState extends State<ProfileLogged> {
           Container(
               alignment: Alignment.topLeft,
               margin: EdgeInsets.only(top: 15, left: 25),
-              child: Text('IDADE',
+              child: Text('3 ANOS',
                   style: TextStyle(
                       fontFamily: 'Nunito',
                       fontSize: 24,

@@ -39,7 +39,8 @@ class HomePage extends StatelessWidget {
                   gradient: redGradient),
               child: MaterialButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, '/game_list');
+                  Navigator.pushNamed(context, '/game_list',
+                      arguments: {'logged': false});
                 },
                 child: Text('JOGAR!',
                     style: TextStyle(
