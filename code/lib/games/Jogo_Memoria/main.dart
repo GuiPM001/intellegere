@@ -2,8 +2,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:intellegere/components/play_again.dart';
 import 'package:intellegere/components/return_button.dart';
-import 'package:intellegere/games/Jogo_da_Memoria/cards.dart';
-import 'package:intellegere/games/Jogo_da_Memoria/cardModel.dart';
+import 'package:intellegere/games/Jogo_Memoria/cards.dart';
+import 'package:intellegere/games/Jogo_Memoria/cardModel.dart';
 
 class JogoDaMemoria extends StatefulWidget {
   @override
@@ -17,7 +17,7 @@ class _JogoDaMemoriaState extends State<JogoDaMemoria> {
   @override
   void initState() {
     super.initState();
-    points = 0;
+    score = 0;
     restart();
   }
 
@@ -51,8 +51,9 @@ class _JogoDaMemoriaState extends State<JogoDaMemoria> {
                       Navigator.pop(context);
                     },
                   ),
-                  Positioned(
-                    child: Text('   JOGO DA MEMÓRIA',
+                  Padding(
+                    padding: EdgeInsets.only(left: 25),
+                    child: Text('JOGO DA MEMÓRIA',
                         style: TextStyle(
                             color: Color(0XFFAB62FF),
                             fontFamily: 'Nunito',
@@ -62,16 +63,56 @@ class _JogoDaMemoriaState extends State<JogoDaMemoria> {
                 ],
               ),
               SizedBox(
-                height: 50,
+                height: 40,
+              ),
+              Container(
+                  padding: EdgeInsets.symmetric(horizontal: 10),
+                  child: RichText(
+                      textAlign: TextAlign.center,
+                      text: TextSpan(
+                          text: 'ENCONTRE OS ',
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 20,
+                            fontFamily: 'Nunito',
+                          ),
+                          children: [
+                            TextSpan(
+                                text: ' PARES ',
+                                style: TextStyle(
+                                    color: Color(0XFFFF0000),
+                                    fontFamily: 'Nunito',
+                                    fontSize: 22,
+                                    fontWeight: FontWeight.w900)),
+                            TextSpan(text: ' DE CARTAS '),
+                            TextSpan(
+                                text: ' IGUAIS ',
+                                style: TextStyle(
+                                    color: Color(0XFFFF0000),
+                                    fontFamily: 'Nunito',
+                                    fontSize: 22,
+                                    fontWeight: FontWeight.w900)),
+                            TextSpan(text: ' PARA FAZER '),
+                            TextSpan(
+                                text: ' PONTOS ',
+                                style: TextStyle(
+                                  color: Colors.green,
+                                  fontFamily: 'Nunito',
+                                  fontSize: 22,
+                                  fontWeight: FontWeight.w900,
+                                )),
+                          ]))),
+              SizedBox(
+                height: 40,
               ),
               Text(
-                "PONTOS:  $points / 600",
+                "PONTOS:  $score / 6",
                 style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.w700,
                     fontFamily: 'Nunito'),
               ),
-              points != 600
+              score != 6
                   ? GridView(
                       shrinkWrap: true,
                       gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
@@ -99,7 +140,20 @@ class _JogoDaMemoriaState extends State<JogoDaMemoria> {
                           ),
                           SizedBox(height: 20),
                           PlayAgain(press: () {
-                            Navigator.pushNamed(context, '/jogo-da-memoria');
+                            setState(() {
+                              score = 0;
+                              myPairs = getPairs();
+                              myPairs.shuffle();
+
+                              gridViewTiles = myPairs;
+                              Future.delayed(const Duration(seconds: 3), () {
+                                setState(() {
+                                  questionPairs = getQuestionPairs();
+                                  gridViewTiles = questionPairs;
+                                  selected = false;
+                                });
+                              });
+                            });
                           })
                         ],
                       ))
@@ -133,7 +187,7 @@ class _CardState extends State<Card> {
           });
           if (selectedCard != "") {
             if (selectedCard == myPairs[widget.tileIndex].getImageAssetPath()) {
-              points = points + 100;
+              score = score + 1;
 
               CardModel cardModel = CardModel();
               selected = true;

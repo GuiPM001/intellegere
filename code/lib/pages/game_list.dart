@@ -61,33 +61,21 @@ class _GameListState extends State<GameList> {
                     },
                   ),
                   IconButton(
-                    icon: Image.asset('assets/images/Jogo_da_Memoria.png'),
+                    icon: Image.asset('assets/images/ABC_Frutas.png'),
                     onPressed: () {
-                      Navigator.pushNamed(context, '/jogo-da-memoria');
+                      Navigator.pushNamed(context, '/jogo-frutas');
                     },
                   ),
                   IconButton(
-                    icon: Image.asset('assets/images/Jogo_da_Memoria.png'),
+                    icon: Image.asset('assets/images/ABC_Animais.png'),
                     onPressed: () {
-                      Navigator.pushNamed(context, '/jogo-da-memoria');
+                      Navigator.pushNamed(context, '/jogo-animais');
                     },
                   ),
                   IconButton(
-                    icon: Image.asset('assets/images/Jogo_da_Memoria.png'),
+                    icon: Image.asset('assets/images/Labirinto.png'),
                     onPressed: () {
-                      Navigator.pushNamed(context, '/jogo-da-memoria');
-                    },
-                  ),
-                  IconButton(
-                    icon: Image.asset('assets/images/Jogo_da_Memoria.png'),
-                    onPressed: () {
-                      Navigator.pushNamed(context, '/jogo-da-memoria');
-                    },
-                  ),
-                  IconButton(
-                    icon: Image.asset('assets/images/Jogo_da_Memoria.png'),
-                    onPressed: () {
-                      Navigator.pushNamed(context, '/jogo-da-memoria');
+                      Navigator.pushNamed(context, '/jogo-labirinto');
                     },
                   ),
                   SizedBox(height: 20)

@@ -37,11 +37,21 @@ class _LoginState extends State<Login> {
             child: Column(
               children: [
                 Padding(
-                  padding: EdgeInsets.only(bottom: 60),
-                  child: SvgPicture.asset(
-                    'assets/images/logo.svg',
-                    height: 230,
-                  ),
+                  padding: const EdgeInsets.only(bottom: 60),
+                  child: Text('L O G I N',
+                      style: TextStyle(
+                        color: Color(0XFFFF0000),
+                        fontFamily: 'Nunito',
+                        fontSize: 50,
+                        fontWeight: FontWeight.w900,
+                        shadows: <Shadow>[
+                          Shadow(
+                            offset: Offset(0.0, 3.0),
+                            blurRadius: 5.0,
+                            color: Colors.black26,
+                          ),
+                        ],
+                      )),
                 ),
                 Input(
                     keyboardType: TextInputType.text,
@@ -82,14 +92,14 @@ class _LoginState extends State<Login> {
 
   String isValidName(value) {
     if (value == null || value.isEmpty) {
-      return 'Insira seu nome de usuário';
+      return 'CAMPO OBRIGATÓRIO';
     }
     return null;
   }
 
   String isValidPassword(value) {
     if (value == null || value.isEmpty) {
-      return 'Insira sua senha';
+      return 'CAMPO OBRIGATÓRIO';
     }
     return null;
   }

@@ -42,7 +42,7 @@ class _ProfileLoggedState extends State<ProfileLogged> {
               alignment: Alignment.center,
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(60),
-                  color: Colors.grey[200],
+                  color: Colors.grey[100],
                   border: Border.all(color: Color(0XFFFFAB5E), width: 4)),
               child: SvgPicture.asset('assets/icons/profile.svg',
                   height: 100, color: Colors.grey[600])),

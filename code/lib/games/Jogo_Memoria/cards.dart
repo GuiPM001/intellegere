@@ -1,9 +1,9 @@
-import 'package:intellegere/games/Jogo_da_Memoria/cardModel.dart';
+import 'package:intellegere/games/Jogo_Memoria/cardModel.dart';
 
 String selectedCard = "";
 int selectedIndex;
 bool selected = true;
-int points = 0;
+int score = 0;
 
 List<CardModel> myPairs = <CardModel>[];
 List<bool> clicked = <bool>[];
