@@ -30,11 +30,11 @@ infância. A criança será capaz de fazer associações relacionadas a letras, 
 
 # Requisitos Funcionais 
 
-- [ ] Cadastrar Usuário
-- [ ] Fazer Login
-- [ ] Selecionar Atividade
-- [ ] Sair da Atividade
-- [ ] Registrar Pontuação
+- [x] **Cadastrar Usuário**
+- [x] **Fazer Login**
+- [x] **Selecionar Atividade**
+- [x] **Sair da Atividade**
+- [x] **Registrar Pontuação**
 - [ ] Registrar Conquista
 
 
@@ -44,7 +44,7 @@ infância. A criança será capaz de fazer associações relacionadas a letras, 
 - [Node.js](https://nodejs.org/en/)
 - [Mongo BD](https://www.mongodb.com/try/download/community)
 - [Figma](https://www.figma.com/files/recent?fuid=975487356877783015) 
-- [Node.js](https://miro.com/app/dashboard/)
+- [Miro](https://miro.com/app/dashboard/)
 - [Xtensio](https://app.xtensio.com/templates/#marketing)
 # Contribuição
 
