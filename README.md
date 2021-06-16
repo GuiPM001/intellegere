@@ -15,6 +15,7 @@ infância. A criança será capaz de fazer associações relacionadas a letras, 
 - [Cenários](https://docs.google.com/document/d/1nzLlACfRgL1vr8Um-cPzkTuD9DsgI6tADBRyiDTuNYI/edit?usp=sharing)
 - [Protótipo lo-fi](https://mediacdns3.ulife.com.br/PAT/Upload/2767413/imagemlofi_20210512002004.jpeg)
 - [Protótipo hi-fi](https://www.figma.com/file/hTDyBrYCKg3RXG9UU0Bglg/Intellegere2?node-id=0%3A1)
+- [Avaliação Heurística](https://docs.google.com/document/d/1tTJNo41KTbI9v4G_XfvNVSZQLOLH3HFH2p7-HCQUQ10/edit?usp=sharing)
 # Índice/Sumário
 
 * [Sobre](#sobre-o-projeto)
