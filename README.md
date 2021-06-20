@@ -64,16 +64,16 @@ Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o no
     <td align="center"><a href="http://github.com/caelfernandes"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/76973266?v=4" width="100px;" alt="Imagem de altor"/><br /><sub><b>Carlos Fernandes - DEV</b></sub></a><br /></td>
 </tc>
 <tc>
-    <td align="center"><a href=""><img style="border-radius: 50%;" src="https://icons-for-free.com/iconfiles/png/512/avatar+person+profile+user+icon-1320086059654790795.png" width="100px;" alt="Imagem de altor"/><br /><sub><b>Herik Santos - Marketing</b></sub></a><br /></td>
+    <td align="center"><a href="http://github.com/HS-Santos"><img style="border-radius: 50%;" src="https://images-na.ssl-images-amazon.com/images/I/41P6SVGYbWL._AC_SY355_.jpg" width="100px;" alt="Imagem de altor"/><br /><sub><b>Herik Santos - Marketing</b></sub></a><br /></td>
 </tc>
 <tr>
-    <td align="center"><a href=""><img style="border-radius: 50%;" src="https://icons-for-free.com/iconfiles/png/512/avatar+person+profile+user+icon-1320086059654790795.png" width="100px;" alt="Imagem de altor"/><br /><sub><b>Ivan Kabuto - DEV</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/ivankabuto"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/74573939?v=4" width="100px;" alt="Imagem de altor"/><br /><sub><b>Ivan Kabuto - DEV</b></sub></a><br /></td>
 
 <tc>
-    <td align="center"><a href=""><img style="border-radius: 50%;" src="https://icons-for-free.com/iconfiles/png/512/avatar+person+profile+user+icon-1320086059654790795.png" width="100px;" alt="Imagem de altor"/><br /><sub><b>Sergio Morato - Gerente de Projetos</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/sergitogalo"><img style="border-radius: 50%;" src="https://pps.whatsapp.net/v/t61.24694-24/185746781_492359728574333_6807570237877996098_n.jpg?ccb=11-4&oh=0034b85a876c7b4fb0cf27c5a4187676&oe=60D2DDE7" width="100px;" alt="Imagem de altor"/><br /><sub><b>Sergio Morato - Gerente de Projetos</b></sub></a><br /></td>
 </tc>
 <tc>
-    <td align="center"><a href=""><img style="border-radius: 50%;" src="https://icons-for-free.com/iconfiles/png/512/avatar+person+profile+user+icon-1320086059654790795.png" width="100px;" alt="Imagem de altor"/><br /><sub><b>Miguel Mattias - Marketing</b></sub></a><br /></td>
+    <td align="center"><a href=""><img style="border-radius: 50%;" src="https://p2.trrsf.com/image/fget/cf/1200/1200/filters:quality(85)/images.terra.com/2021/03/14/batman-dying-is-easy.jpg" width="100px;" alt="Imagem de altor"/><br /><sub><b>Miguel Mattias - Marketing</b></sub></a><br /></td>
 </tc>
 </tr>
 </table>
